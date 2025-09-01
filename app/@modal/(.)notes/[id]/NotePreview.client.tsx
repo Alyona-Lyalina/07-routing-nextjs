@@ -9,6 +9,7 @@ import Loader from "@/components/Loader/Loader";
 import ErrorMessage from "@/components/ErrorMessage/ErrorMessage";
 import css from "./NotePreview.module.css";
 
+
 type NotePreviewProps = {
   id: string;
 };
@@ -56,7 +57,7 @@ type NotePreviewProps = {
           )}
         </div>
         <button className={css.backBtn} onClick={close}>
-          Назад
+          Back
         </button>
       </div>
     </Modal>
